@@ -1,0 +1,6 @@
+com\mycompany\scabdi\DAOImp\ProductoDAOImp.class
+com\mycompany\scabdi\controller\ProductoController.class
+com\mycompany\scabdi\DAO\ProductoDAO.class
+com\mycompanyscabdi\config\Test.class
+com\mycompany\scabdi\model\Producto.class
+com\mycompanyscabdi\config\conexion.class

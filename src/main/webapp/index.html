@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="recursos/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="recursos/css/estilos.css">
+    </head>
+    <body >
+        <div class="row ">
+            
+            <div class="col-6">
+                <div class="container min">   
+                    <h1>PRODUCTO</h1>
+                    <select name="categoria" id="CATEGORIA" class="caja">
+                        <option selected>Categoria</option>
+                        <option value="I">I</option>
+                        <option value="II">II</option>
+                        <option value="III">III</option>
+                        <option value="IV">IV</option>
+                        <option value="V">V</option>
+                    </select>
+                    <input type="text" class="caja" id="nombre" placeholder="Nombre" required>
+                    <input type="number" class="caja" id="precio" placeholder="precio" required>
+                    <input type="number" class="caja" id="Stock" placeholder="Stock" required>
+                    <button class="boton" onclick="registrar()">Registrar</button>
+                </div>
+                <div class="container max">
+                    <table id="table">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th>Stock</th>
+
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbd"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <script src="recursos/js/bootstrap.min.js"></script>
+        <script src="recursos/js/jquery.js"></script>
+<script src="recursos/js/script.js"></script>
+    </body>
+</html>
